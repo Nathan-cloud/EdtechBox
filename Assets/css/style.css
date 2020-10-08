@@ -90,7 +90,11 @@ hr {
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	margin-top: -17px;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 #menu a.navbar-brand i.fa {
 	font-size: 18px;
@@ -102,7 +106,6 @@ hr {
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 12px;
 	letter-spacing: 1px;
-	margin-top: 10px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #54d0dd;
