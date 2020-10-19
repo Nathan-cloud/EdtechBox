@@ -136,8 +136,8 @@ hr {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	background-color: #54d0dd;
-	border-color: #54d0dd;
+	background-color: #001d38;
+	border-color: #001d38;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
 	background-color: #fff;
@@ -697,6 +697,9 @@ a:focus,
 		margin-bottom: 50px;
 		margin-top: 20px;
 	}
+	.no-pad {
+		padding: 2em;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -926,7 +929,7 @@ a:focus,
 }
 
 .no-pad {
-	padding: 0;
+	padding: 2em;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.single-portfolio img {
