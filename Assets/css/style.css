@@ -449,6 +449,11 @@ ol.type li a:hover {
 	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#54d0dd', GradientType=0 ); /* IE6-9 */
 }
+
+#Address {
+	margin-top: 3em;
+	padding-left: 7em;
+}
 #contact form {
 	padding: 30px 0;
 }
@@ -561,6 +566,9 @@ a:focus,
 }
 
 @media (max-width: 767px) {
+	#Address {
+		margin: 0;
+	}
 	#accordion button {
 		font-size: 14px;
 	}
