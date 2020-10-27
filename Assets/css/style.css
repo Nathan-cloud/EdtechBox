@@ -257,6 +257,9 @@ header .intro-text {
 	float: right;
 	width: 100%;
 }
+.img-about {
+	margin-top: 3em;
+}
 #about p {
 	margin-bottom: 30px;
 	line-height: 21px;
