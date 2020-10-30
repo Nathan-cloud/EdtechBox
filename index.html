@@ -54,7 +54,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand page-scroll" href="#page-top">
-						<img src="Logo.png" width="200" alt="" />
+						<img src="Assets/logo.png" width="200" alt="" />
 					</a>
 				</div>
 
@@ -746,14 +746,16 @@
 					<hr />
 				</div>
 				<div class="col-md-8 col-md-offset-2">
-					<form name="sentMessage" id="contactForm" novalidate>
+					<form name="sentMessage" id="contactForm" action="./Assets/mail/php mail.php" method="post" >
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
 									<input
+									name="name"
 										type="text"
 										id="name"
 										class="form-control"
+										
 										placeholder="Name"
 										required="required"
 									/>
@@ -763,9 +765,11 @@
 							<div class="col-md-6">
 								<div class="form-group">
 									<input
+									name="Email"
 										type="email"
 										id="email"
 										class="form-control"
+										
 										placeholder="Email"
 										required="required"
 									/>
@@ -775,10 +779,11 @@
 						</div>
 						<div class="form-group">
 							<textarea
-								name="message"
+							name="Message"
 								id="message"
 								class="form-control"
 								rows="4"
+								
 								placeholder="Message"
 								required
 							></textarea>
@@ -822,28 +827,7 @@
 								</div>
 							</div>
 						</div>
-
-						<div class="row">
-							<!-- <div class="col-md-2 col-xl-4" >
-								<div class="lets_projects">
-									<h3>Reach out to us </h3>
-								</div>
-							</div> -->
-							<div class="col-md-2  col-xl-4">
-								<h3>Rwanda contact</h3>
-							</div>
-
-							<div class="col-md-4 col-lx-4">
-								<h3>KG 652 Street, Kmihurura Kigali</h3>
 	
-							</div>
-							<div class="col-md-4 col-xl-4 ">
-								<div class="phone_number">
-									<h3>+250 788 981033</h3>
-									<a href="#">info@Editechbox.org</a>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 	
@@ -874,11 +858,11 @@
 		<script type="text/javascript" src="Assets/js/nivo-lightbox.js"></script>
 		<script type="text/javascript" src="Assets/js/jquery.isotope.js"></script>
 
-		<script
+		<!-- <script
 			type="text/javascript"
 			src="Assets/js/jqBootstrapValidation.js"
 		></script>
-		<script type="text/javascript" src="Assets/js/contact_me.js"></script>
+		<script type="text/javascript" src="Assets/js/contact_me.js"></script> -->
 		<script type="text/javascript" src="Assets/js/main.js"></script>
 	
 	</body>
